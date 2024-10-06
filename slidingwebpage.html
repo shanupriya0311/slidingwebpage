@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  ><script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwindcss.js"></script>
+</head>
+<body>
+  <section>
+    <ul id="slider"><li class="slide"><div class="h-[100vh] relative">
+      <img  class="w-full h-full object-cover rounded-lg" src="C:\Users\shanu\OneDrive\文档\sample code\baby-children-wallpaper-preview (1).jpg" alt="">>
+      <div class="absolute top-0 bottom-0 border flex items-center my-auto justify-between w-full"><button onclick="next()" class="rounded-full bg-white p-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        </svg>
+        
+      </button>
+      <button onclick="prevslide()" class="rounded-full bg-white p-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+        
+      </button></div>
+    </div>
+  </li>
+  <li class="slide hidden" ><div class="h-[100vh] relative">
+    <img  class="w-full h-full object-cover rounded-lg" src="C:\Users\shanu\OneDrive\文档\sample code\peacock.jpg" alt="">>
+    <div class="absolute top-0 bottom-0 border flex items-center my-auto justify-between w-full"><button onclick="next()" class="rounded-full bg-white p-3 ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+      </svg>
+      
+    </button>
+    <button onclick="prevslide()" class="rounded-full bg-white p-3 ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+      
+    </button></div>
+  </div>
+</li><li class="slide"><div class="h-[100vh] relative">
+      <img  class="w-full h-full object-cover rounded-lg" src="C:\Users\shanu\OneDrive\文档\sample code\rabbit.jpeg">>
+      <div class="absolute top-0 bottom-0 border flex items-center my-auto justify-between w-full"><button onclick="next()" class="rounded-full bg-white p-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        </svg>
+        
+      </button>
+      <button onclick="prevslide()" class="rounded-full bg-white p-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+        
+      </button></div>
+    </div>
+  </li><li class="slide"><div class="h-[100vh] relative">
+      <img  class="w-full h-full object-cover rounded-lg" src="C:\Users\shanu\OneDrive\文档\sample code\parrot.jpeg" alt="">>
+      <div  class="absolute top-0 bottom-0 border flex items-center my-auto justify-between w-full"><button onclick="next()" class="rounded-full bg-white p-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        </svg>
+        
+      </button>
+      <button onclick="prevslide()" class="rounded-full bg-white p-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+        
+      </button></div>
+    </div>
+  </li>
+  <li class="slide"><div class="h-[100vh] relative">
+    <img  class="w-full h-full object-cover rounded-lg" src="C:\Users\shanu\OneDrive\文档\sample code\dog.jpeg" alt="">>
+    <div  class="absolute top-0 bottom-0 border flex items-center my-auto justify-between w-full"><button onclick="next()" class="rounded-full bg-white p-3 ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+      </svg>
+      
+    </button>
+    <button onclick="prevslide()" class="rounded-full bg-white p-3 ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+      </svg>
+      
+    </button></div>
+  </div>
+</li>
+  </ul>
+  </section> <script>
+   let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    if (i === index) {
+      slide.classList.remove('hidden'); 
+    } else {
+      slide.classList.add('hidden');
+    }
+  });
+}
+
+function next() {
+  currentSlide = (currentSlide + 1) % totalSlides;
+  showSlide(currentSlide);
+}
+
+function prevslide() {
+  currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+  showSlide(currentSlide);
+}
+showSlide(currentSlide);
+  </script> </body></html>
